@@ -7,10 +7,6 @@
 
 A professional **voice cloning Text-to-Speech** system using **XTTS-v2** with multi-speaker support. Features multiple interfaces (CLI, Web UI, Gradio) and advanced audio enhancement for maximum voice similarity.
 
-## 📸 Screenshots
-
-*[Add screenshots of your UI here]*
-
 ## ✨ Features
 
 - 🎯 **Multi-Speaker Support** - Configure for any number of speakers
