@@ -1,0 +1,34 @@
+{
+    "model": {
+        "name": "tts_models/multilingual/multi-dataset/xtts_v2",
+        "language": "en",
+        "use_cuda": true,
+        "mixed_precision": true,
+        "gpu_memory_fraction": 0.8,
+        "cache_dir": "C:/Users/Akash/Downloads/Projects/Voice_Cloning_Project/models"
+    },
+    "audio": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "format": "wav",
+        "max_reference_duration": 60,
+        "min_reference_duration": 10
+    },
+    "voices": {
+        "max_speakers": 4,
+        "registry_file": "voices/voice_registry.json",
+        "speakers": ["AB", "AP", "ME", "DF"]
+    },
+    "paths": {
+        "voices_dir": "voices",
+        "generated_dir": "generated_audio",
+        "models_dir": "models",
+        "logs_dir": "logs"
+    },
+    "generation": {
+        "temperature": 0.75,
+        "length_penalty": 1.0,
+        "repetition_penalty": 5.0,
+        "max_text_length": 500
+    }
+}

@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+
+# Models
+models/
+*.pth
+*.pt
+*.bin
+*.onnx
+*.safetensors
+
+# Outputs
+generated_audio/
+
+# Large audio
+*.mp3
+
+# OS
+.DS_Store
+Thumbs.db
